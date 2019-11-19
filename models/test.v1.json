@@ -1,0 +1,12 @@
+{
+  "title": "test",
+  "type": "object",
+  "x-tags": [
+    "API"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    }
+  }
+}
