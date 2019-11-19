@@ -9,7 +9,30 @@
       "url": "http://localhost:3000"
     }
   ],
-  "paths": {},
+  "paths": {
+    "/users": {
+      "get": {
+        "summary": "users",
+        "tags": [],
+        "responses": {}
+      },
+      "post": {
+        "summary": "user",
+        "tags": [],
+        "responses": {}
+      },
+      "put": {
+        "summary": "user/{id}",
+        "tags": [],
+        "responses": {}
+      },
+      "delete": {
+        "summary": "user/{id}",
+        "tags": [],
+        "responses": {}
+      }
+    }
+  },
   "components": {
     "schemas": {
       "User": {
@@ -19,7 +42,8 @@
           "id": {
             "type": "string"
           }
-        }
+        },
+        "description": ""
       }
     }
   }
