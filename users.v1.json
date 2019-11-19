@@ -13,7 +13,9 @@
     "/users": {
       "get": {
         "summary": "users",
-        "tags": [],
+        "tags": [
+          "API"
+        ],
         "responses": {
           "200": {
             "description": "OKDFAFAFADFAF"
