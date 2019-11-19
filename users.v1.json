@@ -14,7 +14,27 @@
       "get": {
         "summary": "users",
         "tags": [],
-        "responses": {}
+        "responses": {
+          "200": {
+            "description": "OKDFAFAFADFAF"
+          }
+        },
+        "parameters": [
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "header",
+            "name": "FAFASDF"
+          },
+          {
+            "schema": {
+              "type": "string"
+            },
+            "in": "query",
+            "name": "FAFDADSF"
+          }
+        ]
       },
       "post": {
         "summary": "user",
@@ -55,7 +75,8 @@
           "id": {
             "type": "string"
           }
-        }
+        },
+        "description": ""
       }
     }
   }
